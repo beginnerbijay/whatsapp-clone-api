@@ -21,7 +21,7 @@ app.get("/", (req,res)=>{
 const server = app.listen(PORT,"0.0.0.0",console.log(`server started at ${PORT}`))
 const io = socket(server,{
     cors:{
-        origin:"https://vichat-app.com",
+        origin:"https://vichat-app.onrender.com",
         Credential:true
     }
 })
